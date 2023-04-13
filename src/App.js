@@ -8,6 +8,10 @@ import Header from './Bai9_BT1/Header';
 import UserForm from './Bai9_BT2/User_form';
 import Greeting from './Bai9_BT2/Greeting';
 import { useState } from 'react';
+import MyComponent from './Bai12Learn/Bai12';
+import Bai12_TH1 from './Bai12_TH1/Bai12_TH1';
+import Bai12_BT1 from './Bai12_BT1/Bai12_BT1';
+import Timer from './Bai12_BT2/Bai12_BT2';
 
 
 function App() {
@@ -39,6 +43,21 @@ function App() {
         <UserForm onSubmit={handleNameSubmit} />
         <Greeting name={name} />
       </div>
+
+
+      <h1>Bai12-Learn</h1>
+      <MyComponent></MyComponent>
+
+
+      <h1>Bai12_TH1</h1>
+      <Bai12_TH1></Bai12_TH1>
+
+
+      <h1>Bai12_BT1</h1>
+      <Bai12_BT1></Bai12_BT1>
+
+      <h1>Bai12_BT2</h1>
+      <Timer></Timer>
     </div>
   );
 
